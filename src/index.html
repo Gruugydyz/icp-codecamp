@@ -1,5 +1,217 @@
-<center>
-<img src="new.png" width="100%"/>
-<br/>
-<img src="ceu_codecamp.jpg"/>
-</center>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jayvee Bangcong - Portfolio</title>
+    <style>
+        /* Basic styling for the portfolio */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        /* Add profile picture styles */
+        .profile-picture {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 5px solid white;
+            object-fit: cover;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        section:hover {
+            transform: scale(1.02);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        section h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .content {
+            font-size: 18px;
+            line-height: 1.6;
+            transition: color 0.3s ease;
+        }
+
+        section:hover .content {
+            color: #4CAF50;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .contact-info {
+            font-size: 16px;
+            color: #4CAF50;
+        }
+
+        .contact-info a {
+            color: #4CAF50;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .contact-info a:hover {
+            color: #333;
+            text-decoration: underline;
+        }
+
+        .skills-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills-list li {
+            background-color: #f4f4f4;
+            margin: 5px 0;
+            padding: 8px;
+            border-radius: 5px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .skills-list li:hover {
+            transform: translateX(10px);
+            background-color: #e8f5e9;
+        }
+
+        .skills-list li:hover {
+            cursor: pointer;
+        }
+
+        /* Styling for smooth hover transitions */
+        .hover-description {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        .hover-description:hover {
+            transform: translateY(-5px);
+            color: #4CAF50;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <!-- Profile Picture -->
+        <img src="jv_pic1.jpeg" alt="Jayvee Bangcong" class="profile-picture"> <!-- Replace 'profile.jpg' with the actual image path -->
+
+        <h1>Jayvee Bangcong</h1>
+        <p>4th Year Student at STI Balagtas College</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p class="content hover-description">
+            Hello! My name is Jayvee Bangcong. I am currently a 4th-year student at STI Balagtas College. I am passionate about technology and web development. My goal is to learn and grow as a developer, working on projects that challenge me to push my boundaries. I believe in continuous learning and applying new skills to solve real-world problems.
+        </p>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <p class="content hover-description">
+            I am currently enrolled at STI Balagtas College, where I am pursuing my degree in BSIT. I have gained valuable knowledge in programming, database management, web development, and more. Here are some of the key highlights of my education:
+        </p>
+        <ul class="skills-list">
+            <li>Web Development</li>
+            <li>Database Management</li>
+            <li>Programming (Java, Python, HTML, CSS, JavaScript)</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Software Engineering</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C#</li>
+            <li>GitHub</li>
+            <li>Database Design and Management (MySQL, MongoDB)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <p class="content hover-description">
+            Here are some of the projects I have worked on:
+        </p>
+        <ul class="skills-list">
+            <li><strong>Personal Portfolio Website</strong> - A website to showcase my skills and projects.</li>
+            <li><strong>Weather App</strong> - A simple web application to display real-time weather data using an API.</li>
+            <li><strong>Task Manager</strong> - A task management app built with React.js to help organize daily tasks.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p class="content hover-description">
+            If you'd like to get in touch with me, feel free to reach out via email or social media:
+        </p>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:jayveebangcong30@gmail.com">jayvee@example.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/jayveebangcong" target="_blank">linkedin.com/in/jayveebangcong</a></p>
+            <p>GitHub: <a href="https://github.com/jayveebangcong" target="_blank">github.com/jayveebangcong</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Jayvee Bangcong. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
